@@ -26,6 +26,8 @@
 #Création de l'écrant Brique 1 
 #/////////////////////////////////////////////////
 
+#Début
+
 # import pygame
 # pygame.init()
 # dis=pygame.display.set_mode((400,300))
@@ -33,12 +35,13 @@
 # pygame.quit()
 # quit()
 
-
+#Fin
 ##Ici tout fonctione cependant l'ecrant ne reste pas réglons cela voulais vous ? ... respecter la case 
 
 ##//////////////////////////////////////////////////
 ##Utilison un boucle while Brique 2
 ##/////////////////////////////////////////////////
+#Début
 
 # import pygame
 # pygame.init()   ##||||| utiliser les méthodes init ()  et quit ()  pour initialiser et désinitialiser tout au début et à la fin du code.
@@ -53,7 +56,7 @@
 # pygame.quit()
 # quit()  ## ||||| utiliser les méthodes init ()  et quit ()  pour initialiser et désinitialiser tout au début et à la fin du code.
 
-
+#Fin
 # Lorsque vous exécutez ce code, vous verrez que l 'écran
 #  que vous avez vu précédemment ne se ferme pas et qu 'il 
 #  renvoie toutes les actions qui se déroulent dessus.
@@ -68,6 +71,8 @@
 
 
 ##Spécifions la fermeture de l'ecrant avec événement appelé «QUIT»
+#Début
+
 # import pygame
 # pygame.init()
 # dis=pygame.display.set_mode((400,300))
@@ -82,6 +87,7 @@
 # pygame.quit()
 # quit()
 
+#Fin
 # Alors maintenant, votre écran est prêt. 
 # La partie suivante consiste à dessiner 
 # notre serpent de iles de ouvéa sur l'écran qui 
@@ -91,6 +97,7 @@
 ##//////////////////////////////////////////////////
 ##Créez le serpent: Brique 4
 ##/////////////////////////////////////////////////
+#Début
 
 # import pygame
 # pygame.init()
@@ -111,6 +118,7 @@
 # pygame.quit()
 # quit()
 
+#Fin
 ## sa ces sur cet un serpent calédonien ! 
 
 # ##*avait vous remarqué que nous avons déplacé le update 
@@ -125,6 +133,7 @@
 #  En outre, l'écran d'affichage passe du noir par défaut au blanc à l'aide de la méthode fill ()  .
 
 ##Créons de nouvelles variables x1_change et y1_change afin de stocker les valeurs de mise à jour des coordonnées x et y pour que notre serpent puisse pensé .
+#Début
 
 # import pygame
  
@@ -178,7 +187,7 @@
 # quit()
 
 
-
+#Fin
 ## Oulala il me fait déja  peur se serpent ! 
 ##laissez-vous du temps à comprendre cette étape . 
 #Plusieurs problèmes sont survenue . essayons de les régler quand pensé vous ?
@@ -198,6 +207,9 @@
 # supprimons les codes en dur et utilisons des variables
 # à la place afin que cela devienne facile au cas où nous
 # voudrions apporter des modifications au jeu plus tard.
+
+#Début
+
 # import pygame
 # import time
 # pygame.init()
@@ -267,6 +279,7 @@
 # pygame.quit()
 # quit()
 
+#Fin
 ##//////////////////////////////////////////////////
 ##Ajoutons de la nourriture: Brique 7
 ##/////////////////////////////////////////////////
@@ -278,6 +291,8 @@
 #  nous ferons un petit changement dans lequel nous inclurerons  
 # les options pour quitter le jeu ou pour jouer 
 # à nouveau lorsque le joueur perd.
+
+#Début
 
 # import pygame
 # import time
@@ -374,6 +389,7 @@
  
 # gameLoop()
 
+#Fin
 ##//////////////////////////////////////////////////
 ##PRODUCTION Augmentons la longueur du serpent: Brique 8
 ##/////////////////////////////////////////////////
@@ -386,6 +402,8 @@
 #encore “. La longueur du serpent est essentiellement contenue 
 #dans une liste et la taille initiale spécifiée dans le code 
 # suivant est d'un bloc.
+
+#Début
 
 # import pygame
 # import time
@@ -508,6 +526,7 @@
  
 # gameLoop()
 
+#Fin
 ##//////////////////////////////////////////////////
 ##PRODUCTION Affichage du score: Brique 9
 ##/////////////////////////////////////////////////
@@ -517,6 +536,8 @@
 # créons une nouvelle fonction comme "Votre_score". 
 # Cette fonction affichera la longueur du serpent soustraite 
 # de 1 car c'est la taille initiale du serpent.
+
+#Début
 
 import pygame
 import time
@@ -646,7 +667,7 @@ def gameLoop():
  
 gameLoop()
 
-
+#Fin
 
 #Avec cela, nous sommes arrivés à la fin du Snake Game en Python. 
 #J'espère que vvous avais mieu compris
